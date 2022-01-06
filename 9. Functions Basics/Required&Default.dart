@@ -1,5 +1,5 @@
 void main(){
-  final a=about();  //If we don't provide age so it's a "null"
+  final a=about('dhaval');  //If we don't provide age so it's a "null"
   print(a);
 
 }
@@ -10,7 +10,7 @@ void main(){
 // ----Note:You can't use Default With required
 
 
-String about({required String? name='"---name---"',int? age=0}){ //Default value Provided
+String about({required String? name,int? age=0}){ //Default value Provided
   return "My name is $name and I am $age years old";
 
 }
