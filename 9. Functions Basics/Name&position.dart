@@ -3,8 +3,11 @@ void main(){
   print(a);
 
 }
+// Positional Argument:-You can only add the argument by it's position.
 
-// Name Operator:==gives faciltiy to add argument with it's argument user are allowed to enter data in any sequence
+
+
+// Name Argument:==gives faciltiy to add argument with it's argument user are allowed to enter data in any sequence
 // example:-in final a we are adding argument with it;s variable===name: 'dj',age: 16); 
 
 String about({String? name,int? age}){ //Curly bracket Name and position

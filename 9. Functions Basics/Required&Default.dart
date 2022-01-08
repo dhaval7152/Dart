@@ -9,7 +9,7 @@ void main(){
 // THE required sign Asign variable to mandotary you can't keep it blank
 // ----Note:You can't use Default With required
 
-
+// the default sign is '{}' inside this you can give them deafult value
 String about({required String? name,int? age=0}){ //Default value Provided
   return "My name is $name and I am $age years old";
 
