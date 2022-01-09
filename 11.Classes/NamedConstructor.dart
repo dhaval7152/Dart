@@ -7,7 +7,6 @@ class Complex {
 
   final double re;
   final double im;
-  final double no;
  
   
  }

@@ -18,7 +18,7 @@ void main() {
   final person2 =Person(name:'dhaval',age:21,height:1.90);
   final person3 =Person(name:'obama',age:44,height: 2.54);
   // person.printDescription($name, $age, $height);
-  person.printDescription();
+  // person.printDescription();
   person2.printDescription();
   person3.printDescription();
 }

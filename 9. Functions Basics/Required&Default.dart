@@ -1,5 +1,5 @@
 void main(){
-  final a=about('dhaval');  //If we don't provide age so it's a "null"
+  final a=about(name:'dhaval');  //If we don't provide age so it's a "null"
   print(a);
 
 }
